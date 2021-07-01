@@ -3,6 +3,6 @@ name: default
 
 steps:
 - name: build
- image: python
- commands: 
+image: python
+commands: 
 - "curl -X POST -H 'content-type: application/json' --url https://app.harness.io/gateway/api/webhooks/1Z8DxCB09wMznfYRwycppwhQONU5Jnl777vpn3Vi?accountId=Sy3KVuK1SZy2Z7OLhbKlNg -d '{\"application\":\"Qx4XDi7eQAynspJX2S0Ndw\",\"artifacts\":[{\"service\":\"order-service\",\"buildNumber\":\"131\"}]}'"
